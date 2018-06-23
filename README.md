@@ -1,2 +1,2 @@
-# crypto
-A cryptography library which makes using Java's built-in cryptography easier
+# YAMM Crypto
+This library makes using the [Java Cryptograpy Extension](https://en.wikipedia.org/wiki/Java_Cryptography_Extension) simpler. It uses the default provider as opposed to an external provider such as [Bouncy Castle](https://www.bouncycastle.org/). This has the advantages of a smaller JAR file, but with the disadvantage that not all ciphers are supported by all implementations (e.g. [Android](https://developer.android.com/reference/javax/crypto/Cipher)).
